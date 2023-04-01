@@ -12,76 +12,76 @@ class AppTheme {
   static const darkTitleTextColor = Color(0xffffffff);
   static const darkSubTitleTextColor = Color(0xff7799B8);
 
-  static const lightPrimary = Color(0xFFEBF4F8);
-  static const lightPrimaryDark = Color(0xFFEBF4F8);
-  static const lightSecondary = Color(0xFF2958ff);
+  static const lightPrimary = Color(0xFF007A7B);
+  static const lightPrimaryDark = Color(0xFF007A7B);
+  static const lightSecondary = Color(0xFFFEA02F);
 
   static const darkPrimary = Color(0xFF070C5F);
   static const darkPrimaryDark = Color(0xFF0A0E47);
   static const darkSecondary = Color(0xFF2958ff);
 
-  static const lightBackgroundColor = Color(0xFFEBF4F8);
+  static const lightBackgroundColor = Colors.white;
   static const darkBackgroundColor = Color(0xff0D0A3D);
 
   //Text Themes
   static final TextTheme lightTextTheme = TextTheme(
-    displayLarge: GoogleFonts.ibmPlexSans(
+    displayLarge: GoogleFonts.almarai(
       textStyle: const TextStyle(
         fontSize: 102,
         color: lightTitleTextColor,
           overflow: TextOverflow.ellipsis
       ),
     ),
-    displayMedium: GoogleFonts.ibmPlexSans(
+    displayMedium: GoogleFonts.almarai(
       textStyle: const TextStyle(
         fontSize: 64,
         color: lightTitleTextColor,
           overflow: TextOverflow.ellipsis
       ),
     ),
-    displaySmall: GoogleFonts.ibmPlexSans(
+    displaySmall: GoogleFonts.almarai(
       textStyle: const TextStyle(
         fontSize: 51,
         color: lightTitleTextColor,
           overflow: TextOverflow.ellipsis
       ),
     ),
-    headlineMedium: GoogleFonts.ibmPlexSans(
+    headlineMedium: GoogleFonts.almarai(
       textStyle: const TextStyle(
         fontSize: 36,
         color: lightTitleTextColor,
           overflow: TextOverflow.ellipsis
       ),
     ),
-    headlineSmall: GoogleFonts.ibmPlexSans(
+    headlineSmall: GoogleFonts.almarai(
       textStyle: const TextStyle(
         fontSize: 25,
         color: lightTitleTextColor,
           overflow: TextOverflow.ellipsis
       ),
     ),
-    titleLarge: GoogleFonts.ibmPlexSans(
+    titleLarge: GoogleFonts.almarai(
       textStyle: const TextStyle(
         fontSize: 18,
         color: lightTitleTextColor,
         overflow: TextOverflow.ellipsis
       ),
     ),
-    titleMedium: GoogleFonts.ibmPlexSans(
+    titleMedium: GoogleFonts.almarai(
       textStyle: const TextStyle(
         fontSize: 17,
         color: lightTitleTextColor,
         overflow: TextOverflow.ellipsis
       ),
     ),
-    titleSmall: GoogleFonts.ibmPlexSans(
+    titleSmall: GoogleFonts.almarai(
       textStyle: const TextStyle(
         fontSize: 15,
         color: lightTitleTextColor,
           overflow: TextOverflow.ellipsis
       ),
     ),
-    bodyLarge: GoogleFonts.ibmPlexSans(
+    bodyLarge: GoogleFonts.almarai(
       textStyle: const TextStyle(
         fontSize: 16,
         fontWeight: FontWeight.bold,
@@ -89,7 +89,7 @@ class AppTheme {
           overflow: TextOverflow.ellipsis
       ),
     ),
-    bodyMedium: GoogleFonts.ibmPlexSans(
+    bodyMedium: GoogleFonts.almarai(
       textStyle: const TextStyle(
         fontSize: 14,
         fontWeight: FontWeight.bold,
@@ -97,7 +97,7 @@ class AppTheme {
           overflow: TextOverflow.ellipsis
       ),
     ),
-    labelLarge: GoogleFonts.ibmPlexSans(
+    labelLarge: GoogleFonts.almarai(
       textStyle: const TextStyle(
         fontSize: 15,
         fontWeight: FontWeight.bold,
@@ -105,7 +105,7 @@ class AppTheme {
           overflow: TextOverflow.ellipsis
       ),
     ),
-    bodySmall: GoogleFonts.ibmPlexSans(
+    bodySmall: GoogleFonts.almarai(
       textStyle: const TextStyle(
         fontSize: 13,
         fontWeight: FontWeight.bold,
@@ -113,7 +113,7 @@ class AppTheme {
           overflow: TextOverflow.ellipsis
       ),
     ),
-    labelSmall: GoogleFonts.ibmPlexSans(
+    labelSmall: GoogleFonts.almarai(
       textStyle: const TextStyle(
         fontSize: 11,
           fontWeight: FontWeight.bold,
@@ -124,43 +124,43 @@ class AppTheme {
   );
 
   static final TextTheme darkTextTheme = TextTheme(
-    displayLarge: GoogleFonts.ibmPlexSans(
+    displayLarge: GoogleFonts.almarai(
       textStyle: const TextStyle(fontSize: 102, color: darkTitleTextColor,overflow: TextOverflow.ellipsis),
     ),
-    displayMedium: GoogleFonts.ibmPlexSans(
+    displayMedium: GoogleFonts.almarai(
       textStyle: const TextStyle(fontSize: 64, color: darkTitleTextColor,overflow: TextOverflow.ellipsis),
     ),
-    displaySmall: GoogleFonts.ibmPlexSans(
+    displaySmall: GoogleFonts.almarai(
       textStyle: const TextStyle(fontSize: 51, color: darkTitleTextColor,overflow: TextOverflow.ellipsis),
     ),
-    headlineMedium: GoogleFonts.ibmPlexSans(
+    headlineMedium: GoogleFonts.almarai(
       textStyle: const TextStyle(fontSize: 36, color: darkTitleTextColor,overflow: TextOverflow.ellipsis),
     ),
-    headlineSmall: GoogleFonts.ibmPlexSans(
+    headlineSmall: GoogleFonts.almarai(
       textStyle: const TextStyle(fontSize: 25, color: darkTitleTextColor,overflow: TextOverflow.ellipsis),
     ),
-    titleLarge: GoogleFonts.ibmPlexSans(
+    titleLarge: GoogleFonts.almarai(
       textStyle: const TextStyle(fontSize: 18, color: darkTitleTextColor,overflow: TextOverflow.ellipsis),
     ),
-    titleMedium: GoogleFonts.ibmPlexSans(
+    titleMedium: GoogleFonts.almarai(
       textStyle: const TextStyle(fontSize: 17, color: darkTitleTextColor,overflow: TextOverflow.ellipsis),
     ),
-    titleSmall: GoogleFonts.ibmPlexSans(
+    titleSmall: GoogleFonts.almarai(
       textStyle: const TextStyle(fontSize: 15, color: darkTitleTextColor,overflow: TextOverflow.ellipsis),
     ),
-    bodyLarge: GoogleFonts.ibmPlexSans(
+    bodyLarge: GoogleFonts.almarai(
       textStyle: const TextStyle(fontSize: 17, color: darkSubTitleTextColor,overflow: TextOverflow.ellipsis),
     ),
-    bodyMedium: GoogleFonts.ibmPlexSans(
+    bodyMedium: GoogleFonts.almarai(
       textStyle: const TextStyle(fontSize: 14, color: darkSubTitleTextColor,overflow: TextOverflow.ellipsis),
     ),
-    labelLarge: GoogleFonts.ibmPlexSans(
+    labelLarge: GoogleFonts.almarai(
       textStyle: const TextStyle(fontSize: 15, color: darkSubTitleTextColor,overflow: TextOverflow.ellipsis),
     ),
-    bodySmall: GoogleFonts.ibmPlexSans(
+    bodySmall: GoogleFonts.almarai(
       textStyle: const TextStyle(fontSize: 13, color: darkSubTitleTextColor,overflow: TextOverflow.ellipsis),
     ),
-    labelSmall: GoogleFonts.ibmPlexSans(
+    labelSmall: GoogleFonts.almarai(
       textStyle: const TextStyle(fontSize: 11, color: darkSubTitleTextColor,overflow: TextOverflow.ellipsis),
     ),
   );

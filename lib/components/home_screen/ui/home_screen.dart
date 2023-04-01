@@ -14,8 +14,8 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            PrimaryButton(title: tr('dev_task_screen'), onClick: () {
-              appNotifier.goToRoute('/dev_task_screen');
+            PrimaryButton(title: tr('design_task_screen'), onClick: () {
+              appNotifier.goToRoute('/design_task_screen');
             }),
             bigSpaceV,
             PrimaryButton(title: tr('dev_task_screen'), onClick: () {

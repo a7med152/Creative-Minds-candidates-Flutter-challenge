@@ -3,10 +3,15 @@
   "current_language": "ar",
   "choose_lang": "اختر اللغه",
   "dev_task_screen": "dev Task",
+  "design_task_screen": "design Task",
   "repository": "مخزن",
   "owner": "مالك",
   "start": "أبداء",
   "search": "بحث",
   "loading": "جار التحميل",
+  "location": "طنطا , منطقة الاستاد",
+  "change": "تغيير",
+  "categories": "الاقسام",
+  "re_order": "أعادة الطلب",
   "": ""
 }

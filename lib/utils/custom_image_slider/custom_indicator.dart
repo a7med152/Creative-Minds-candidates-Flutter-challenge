@@ -27,8 +27,7 @@ class Indicator extends StatelessWidget {
             (index) {
           return CircleAvatar(
             radius: radius,
-            backgroundColor:
-            currentIndex == index ? activeColor : backgroundColor,
+            backgroundColor: currentIndex == index ? activeColor : backgroundColor,
           );
         },
       ),

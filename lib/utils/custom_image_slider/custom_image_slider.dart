@@ -3,7 +3,6 @@ import 'package:creative_minds_flutter_challenge/utils/constants.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
-import '../colors.dart';
 import 'custom_indicator.dart';
 
 class ImageSlideshow extends StatefulWidget {
@@ -156,26 +155,20 @@ class ImageSlideshowState extends State<ImageSlideshow> {
                 final correctIndex = index % widget.children.length;
                 return widget.type == 1
                     ? widget.children[correctIndex]
-                    : Container(
-                        decoration: const BoxDecoration(
-                          color: darkTextColor,
-                          borderRadius:
-                              BorderRadius.all(Radius.circular(defaultRadius)),
+                    : Padding(
+                        padding: const EdgeInsets.all(soSmallPadding),
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(defaultRadius),
+                          child: widget.children[correctIndex],
                         ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(soSmallPadding),
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(defaultRadius),
-                            child: widget.children[correctIndex],
-                          ),
-                        ));
+                      );
               },
             ),
           ),
           Positioned(
             left: 0,
             right: 0,
-            bottom: widget.type == 1 ? 25 : 0,
+            bottom: 15,
             child: ValueListenableBuilder<int>(
               valueListenable: _currentPageNotifier,
               builder: (context, value, child) {

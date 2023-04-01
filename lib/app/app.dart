@@ -4,6 +4,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:provider/provider.dart';
+import '../components/design_task_screen/ui/design_task_screen.dart';
 import '../components/dev_task_screen/ui/dev_task_screen.dart';
 import '../components/home_screen/ui/home_screen.dart';
 import '../components/select_lang_and_theme/ui/select_lang_and_theme_screen.dart';
@@ -29,6 +30,7 @@ class _MyAppState extends State<MyApp> {
     '/home': (context) => const HomeScreen(),
     '/select_lang_and_theme': (context) => const SelectLangAndTheme(),
     '/dev_task_screen': (context) => const DevTaskScreen(),
+    '/design_task_screen': (context) => const DesignTaskScreen(),
   };
 
 
