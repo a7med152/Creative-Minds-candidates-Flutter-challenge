@@ -36,7 +36,7 @@ class _SelectLangAndThemeState extends State<SelectLangAndTheme>{
                   const SizedBox(height: soBigSize,),
                   Row(
                     children: [
-                      Text(tr('Choose lang'),style: Theme.of(context).textTheme.bodyMedium,)
+                      Text(tr('choose_lang'),style: Theme.of(context).textTheme.bodyMedium,)
                     ],
                   ),
                   defaultSpaceV,
